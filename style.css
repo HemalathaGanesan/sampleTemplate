@@ -1,0 +1,88 @@
+.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.bg-light {
+  background-color: white !important;
+  border-bottom: 1px solid darkgray;
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: darkcyan;
+}
+.navbar-brand img {
+  width: 6rem;
+}
+.image img {
+  width: 100%;
+}
+.row {
+  justify-content: space-evenly;
+}
+.col-md-12 {
+  margin-top: 10px;
+  text-align: center;
+  color: darkcyan;
+}
+.col-md-4 {
+  border: 2px solid;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.col-md-7 {
+  border: 2px solid;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.card {
+  border: none;
+  color: darkcyan;
+}
+.card-text {
+  color: black;
+}
+.footer .card {
+  border: none;
+  background-color: darkcyan;
+}
+.footer .card-title {
+  padding-left: 1.2rem;
+  color: #ffffff;
+}
+.footer {
+  background-color: darkcyan;
+}
+.list-group {
+  float: left;
+}
+.list-group-item {
+  background-color: darkcyan;
+  border: none;
+  color: initial;
+}
+.footer-1 {
+  padding-bottom: 6px;
+  padding-top: 6px;
+  background-color: #2c3131;
+  text-align: center;
+  color: white;
+}
+.col-md-3 {
+  border-right: 2px solid white;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.col-md-3:last-child {
+  border: none;
+}
+.footer-1 h6 {
+  font-size: 16px;
+}
+@media (max-width: 767px) {
+  .col-md-3 {
+    border: none;
+    margin: 0px;
+  }
+}
